@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.taijoo.myproject.R
 import com.taijoo.myproject.data.model.BookStore
 import com.taijoo.myproject.data.model.Store
+import com.taijoo.myproject.data.model.TestData
 import com.taijoo.myproject.databinding.ActivityMainBinding
 import com.taijoo.myproject.module.BookStoreQualifier
 import com.taijoo.myproject.module.ClothingStoreQualifier
@@ -37,6 +38,8 @@ class MainActivity : AppCompatActivity() {
 
     @ClothingStoreQualifier
     @Inject lateinit var clothingStore : Store
+
+    private lateinit var testData : TestData
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
