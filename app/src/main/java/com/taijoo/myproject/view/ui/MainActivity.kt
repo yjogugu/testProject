@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.taijoo.myproject.R
+import com.taijoo.myproject.data.api.TestApi
 import com.taijoo.myproject.data.model.BookStore
 import com.taijoo.myproject.data.model.Store
 import com.taijoo.myproject.data.model.TestData
@@ -43,6 +44,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var testData : TestData
 
     private lateinit var test2Data : Test2Data
+
+    private lateinit var testApi : TestApi
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -83,6 +86,7 @@ class MainActivity : AppCompatActivity() {
         a + 2 + 5
 
 
+        testApi.testAp1()
     }
 
 
