@@ -49,7 +49,8 @@ class MainActivity : AppCompatActivity() {
             binding.lifecycleOwner = this@MainActivity
         }
 
-        Log.e("test","pc 2")
+        Log.e("test","pc 1")
+        Log.e("test","pc 3")
 
         lifecycleScope.launch {
             viewModel.item.collectLatest {
