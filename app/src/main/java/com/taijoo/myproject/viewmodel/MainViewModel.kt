@@ -26,9 +26,15 @@ class MainViewModel @Inject constructor() : ViewModel() {
                 list.add(Memo(i,i,i.toString(),"20222"))
             }
 
-            Log.e("여기","ㅂㅂ")
+            Log.e("여기","pc22222")
+
+            Log.e("여기","pc22222")
             _item.value = list
         }
+    }
+
+    fun e(){
+        Log.e("여기","pc22222")
     }
 
 }
