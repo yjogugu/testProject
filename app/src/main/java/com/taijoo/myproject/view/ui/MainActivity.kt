@@ -49,6 +49,7 @@ class MainActivity : AppCompatActivity() {
             binding.lifecycleOwner = this@MainActivity
         }
 
+        Log.e("das","asd")
 
         lifecycleScope.launch {
             viewModel.item.collectLatest {
