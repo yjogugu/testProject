@@ -30,6 +30,8 @@ class MainViewModel @Inject constructor() : ViewModel() {
 
             Log.e("여기","pc22222")
             _item.value = list
+
+            e()
         }
     }
 
