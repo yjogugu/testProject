@@ -11,6 +11,7 @@ import com.taijoo.myproject.R
 import com.taijoo.myproject.data.model.BookStore
 import com.taijoo.myproject.data.model.Store
 import com.taijoo.myproject.data.model.TestData
+import com.taijoo.myproject.data.model.Test2Data
 import com.taijoo.myproject.databinding.ActivityMainBinding
 import com.taijoo.myproject.module.BookStoreQualifier
 import com.taijoo.myproject.module.ClothingStoreQualifier
@@ -40,6 +41,8 @@ class MainActivity : AppCompatActivity() {
     @Inject lateinit var clothingStore : Store
 
     private lateinit var testData : TestData
+
+    private lateinit var test2Data : Test2Data
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -76,6 +79,8 @@ class MainActivity : AppCompatActivity() {
 
         a + 5
 
+
+        a + 2 + 5
 
 
     }
