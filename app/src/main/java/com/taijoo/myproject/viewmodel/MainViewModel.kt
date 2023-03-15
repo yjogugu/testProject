@@ -35,6 +35,8 @@ class MainViewModel @Inject constructor() : ViewModel() {
 
     fun e(){
         Log.e("여기","pc22222")
+        Log.e("여기","pc22222")
+
     }
 
 }

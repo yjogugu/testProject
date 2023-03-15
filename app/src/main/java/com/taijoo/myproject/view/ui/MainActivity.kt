@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity() {
         Log.e("test","pc 3")
         Log.e("test","pc 2")
         Log.e("test","pc 4")
+        Log.e("test","pc 5")
 
         lifecycleScope.launch {
             viewModel.item.collectLatest {
