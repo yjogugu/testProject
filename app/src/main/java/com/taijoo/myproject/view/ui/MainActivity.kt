@@ -61,9 +61,12 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        bookStore.open()
-
         clothingStore.open()
+
+
+        val a = 0
+
+        a + 2
 
 
 
